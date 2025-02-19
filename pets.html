@@ -13,6 +13,23 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="pets.html">Pet Options</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="basic.html">Basic Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advance.html">Advanced Page</a>
+            </li>
+        </ul>
+    </div>
+</nav>
       <h1>pick a pet by Himaja Kaishetty</h1>
       <p>
         K-Komodo Dragon
@@ -41,5 +58,114 @@
     </div>
    </div>
 <p>After reducing the size of the webpage slowly, I have observed that the row of pet names is breaking first.</p>
+
+<h3 class="container1">The Images of my pets</h3>
+<div class="row">
+<div class="col-md"><img src="komodragon1.jpg" height=450 weight=450 class="img-fluid" alt="komodo dragon"></div>
+<div class="col-md"><img src="indianstartortois.jpg" height=450 weight=450 class="img-fluid" alt="Indian Star Tortois"></div>
+<div class="col-md"><img src="EclectusParrot.jpg" height=450 weight=450 class="img-fluid" alt="Eclectus Parrot"></div>
+</div>
+<h3 class="container1">Images of my pets</h3>
+<div class="row">
+<div class="col-sm-2"><img src="komodragon1.jpg" height=450 weight=450 class="img-thumbnail" alt="komodo Dragon Thumbnail"></div>
+<div class="col-sm-2"><img src="indianstartortois.jpg" height=450 weight=450 class="img-thumbnail" alt="Indian Star Tortois Thumbnail"></div>
+<div class="col-sm-2"><img src="EclectusParrot.jpg" height=450 weight=450 class="img-thumbnail" alt="Eclectus Parrot Thumbnail"></div>
+</div>
+
+<caption>Table contains pets,rivers,city</caption>
+<table class="table table-dark table-striped table table-hover">
+  <thead align="center">
+    <tr class="table-secondary table">
+      <th scope="col">Letter</th>
+      <th scope="col">Pet</th>
+      <th scope="col">River</th>
+      <th scope="col">City</th>
+    </tr>
+  </thead>
+  <tbody class="table table-success table-striped">
+    <tr align="center">
+      <th scope="row">K</th>
+      <td>Komodo dragon</td>
+      <td>Kaveri</td>
+      <td>kawaguchi</td>
+    </tr>
+    <tr align="center">
+      <th scope="row">A</th>
+      <td>Akita</td>
+      <td>Aberjona River</td>
+      <td>Aberdeen</td>
+    </tr>
+    <tr align="center">
+      <th scope="row">I</th>
+      <td>Indian Start Tortois</td>
+      <td>Illinois River</td>
+      <td>Irving</td>
+    </tr>
+    <tr align="center">
+      <th scope="row">S</th>
+      <td>Samoyed</td>
+      <td>Severn River</td>
+      <td>Shanghai</td>
+    </tr>
+    <tr align="center">
+      <th scope="row">H</th>
+      <td>Hamster</td>
+      <td>Hudson River</td>
+      <td>Honolulu</td>
+    </tr>
+    <tr align="center">
+      <th scope="row">E</th>
+      <td>Eclectus Parrot</td>
+      <td>Eel River</td>
+      <td>Erbil</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Button Groups</h3>
+<div class="btn-group" role="group" aria-label="Basic example">
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-success">K</button>
+  <button type="button" class="btn btn-success">A</button>
+  <button type="button" class="btn btn-success">I</button>
+</div>
+<div>
+  <button type="button" class="btn btn-warning">S</button>
+  <button type="button" class="btn btn-warning">H</button>
+</div>
+<div>
+  <button type="button" class="btn btn-danger">E</button>
+  
+</div>
+</div>
+<br>
+<br>
+<br><br><br><br><br>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown 
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="basic.html">Basic Page</a>
+<a class="dropdown-item" href="advance.html">Advance Page</a>
+</div>
+</div>
+<br><br>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="form-group">
+    <label for="pet">Pet Name</label>
+    <input type="text" class="form-control" id="pet" placeholder="Enter your Pet Name">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="newsletter">
+    <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
 </body>
 </html>
